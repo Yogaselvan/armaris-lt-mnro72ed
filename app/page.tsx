@@ -72,7 +72,7 @@ export default function ArmarisHome() {
           </div>
           <div data-reveal-stagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-reveal-stagger>
             <Card isHoverable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-6 text-center">
+              <CardBody className="p-6 text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                   <Award className="w-8 h-8 text-primary" />
                 </div>
@@ -81,7 +81,7 @@ export default function ArmarisHome() {
               </CardBody>
             </Card>
             <Card isHoverable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-6 text-center">
+              <CardBody className="p-6 text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                   <Clock className="w-8 h-8 text-primary" />
                 </div>
@@ -90,7 +90,7 @@ export default function ArmarisHome() {
               </CardBody>
             </Card>
             <Card isHoverable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-6 text-center">
+              <CardBody className="p-6 text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                   <Shield className="w-8 h-8 text-primary" />
                 </div>
@@ -99,7 +99,7 @@ export default function ArmarisHome() {
               </CardBody>
             </Card>
             <Card isHoverable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-6 text-center">
+              <CardBody className="p-6 text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                   <Users className="w-8 h-8 text-primary" />
                 </div>
@@ -194,10 +194,10 @@ export default function ArmarisHome() {
           </div>
           <div data-reveal-stagger className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" data-reveal-stagger>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 top-0">
+              <CardHeader className="absolute z-10 top-0">
                 <Chip variant="flat" color="primary" size="sm">Gyvenamasis</Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0 overflow-hidden">
+              <CardBody className="p-0 overflow-hidden">
                 <Image
                   isBlurred
                   isZoomed
@@ -207,7 +207,7 @@ export default function ArmarisHome() {
                   className="w-full h-64 object-cover"
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div className="flex items-center gap-2">
                   <Building2 className="w-4 h-4 text-primary" />
                   <span className="text-foreground font-medium">Modernus butas</span>
@@ -215,10 +215,10 @@ export default function ArmarisHome() {
               </CardFooter>
             </Card>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 top-0">
+              <CardHeader className="absolute z-10 top-0">
                 <Chip variant="flat" color="primary" size="sm">Biuras</Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0 overflow-hidden">
+              <CardBody className="p-0 overflow-hidden">
                 <Image
                   isBlurred
                   isZoomed
@@ -228,7 +228,7 @@ export default function ArmarisHome() {
                   className="w-full h-64 object-cover"
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div className="flex items-center gap-2">
                   <Building2 className="w-4 h-4 text-primary" />
                   <span className="text-foreground font-medium">Verslo centras</span>
@@ -236,10 +236,10 @@ export default function ArmarisHome() {
               </CardFooter>
             </Card>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 top-0">
+              <CardHeader className="absolute z-10 top-0">
                 <Chip variant="flat" color="primary" size="sm">Gyvenamasis</Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0 overflow-hidden">
+              <CardBody className="p-0 overflow-hidden">
                 <Image
                   isBlurred
                   isZoomed
@@ -249,7 +249,7 @@ export default function ArmarisHome() {
                   className="w-full h-64 object-cover"
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div className="flex items-center gap-2">
                   <Building2 className="w-4 h-4 text-primary" />
                   <span className="text-foreground font-medium">Privatus namas</span>
@@ -257,10 +257,10 @@ export default function ArmarisHome() {
               </CardFooter>
             </Card>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 top-0">
+              <CardHeader className="absolute z-10 top-0">
                 <Chip variant="flat" color="primary" size="sm">Komercinis</Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0 overflow-hidden">
+              <CardBody className="p-0 overflow-hidden">
                 <Image
                   isBlurred
                   isZoomed
@@ -270,7 +270,7 @@ export default function ArmarisHome() {
                   className="w-full h-64 object-cover"
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div className="flex items-center gap-2">
                   <Building2 className="w-4 h-4 text-primary" />
                   <span className="text-foreground font-medium">Parduotuvė</span>
@@ -278,10 +278,10 @@ export default function ArmarisHome() {
               </CardFooter>
             </Card>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 top-0">
+              <CardHeader className="absolute z-10 top-0">
                 <Chip variant="flat" color="primary" size="sm">Restauravimas</Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0 overflow-hidden">
+              <CardBody className="p-0 overflow-hidden">
                 <Image
                   isBlurred
                   isZoomed
@@ -291,7 +291,7 @@ export default function ArmarisHome() {
                   className="w-full h-64 object-cover"
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div className="flex items-center gap-2">
                   <Building2 className="w-4 h-4 text-primary" />
                   <span className="text-foreground font-medium">Senovinis butas</span>
@@ -299,7 +299,7 @@ export default function ArmarisHome() {
               </CardFooter>
             </Card>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 top-0">
+              <CardHeader className="absolute z-10 top-0">
                 <Chip variant="flat" color="primary" size="sm">Virtuvė</Chip>
               </CardHeader>
              CardBody>
@@ -312,7 +312,7 @@ export default function ArmarisHome() {
                   className="w-full h-64 object-cover"
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div className="flex items-center gap-2">
                   <Building2 className="w-4 h-4 text-primary" />
                   <span className="text-foreground font-medium">Modulinė virtuvė</span>
@@ -487,7 +487,7 @@ export default function ArmarisHome() {
               </div>
             </div>
             <Card data-hover-lift isHoverable shadow="md" className="bg-content1/60 backdrop-blur-xl border border-default-100" shadow="md">
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-8">
+              <CardBody className="p-8">
                 <div className="space-y-6">
                   <Input
                     label="Vardas"

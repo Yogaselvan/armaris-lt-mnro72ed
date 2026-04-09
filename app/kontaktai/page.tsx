@@ -34,7 +34,7 @@ export default function Kontaktai() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12" data-reveal-stagger>
             <Card shadow="md" isHoverable data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="pb-0">
+              <CardHeader className="pb-0">
                 <Chip variant="flat" color="primary" size="sm">
                   Parašykite mums
                 </Chip>
@@ -42,7 +42,7 @@ export default function Kontaktai() {
                 <h2 className="text-2xl font-bold text-foreground">Siųsti žinutę</h2>
                 <p className="text-default-500">Užpildykite formą ir mes su jumis susisieksime</p>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body>
+              <CardBody>
                 <form className="flex flex-col gap-4">
                   <Input
                     type="text"
@@ -88,7 +88,7 @@ export default function Kontaktai() {
 
             <div className="flex flex-col gap-8">
               <Card shadow="md" isHoverable data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-                <Card data-hover-lift isHoverable shadow="md"Header>
+                <CardHeader>
                   <Chip variant="flat" color="secondary" size="sm">
                     Sekite mus
                   </Chip>
@@ -96,7 +96,7 @@ export default function Kontaktai() {
                   <h2 className="text-2xl font-bold text-foreground">Socialiniai tinklai</h2>
                   <p className="text-default-500">Prisijunkite prie mūsų bendruomenės</p>
                 </CardHeader>
-                <Card data-hover-lift isHoverable shadow="md"Body>
+                <CardBody>
                   <div className="grid grid-cols-2 gap-4" data-reveal-stagger>
                     <Button
                       variant="bordered"
@@ -143,14 +143,14 @@ export default function Kontaktai() {
               </Card>
 
               <Card shadow="md" isHoverable data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-                <Card data-hover-lift isHoverable shadow="md"Header>
+                <CardHeader>
                   <Chip variant="flat" color="secondary" size="sm">
                     Informacija
                   </Chip>
                   <Spacer y={2} />
                   <h2 className="text-2xl font-bold text-foreground">Armaris.lt</h2>
                 </CardHeader>
-                <Card data-hover-lift isHoverable shadow="md"Body>
+                <CardBody>
                   <div className="flex flex-col gap-4">
                     <div className="flex items-center gap-3">
                       <div className="p-2 bg-primary-10 rounded-full">
@@ -233,12 +233,12 @@ export default function Kontaktai() {
           <Spacer y={8} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-reveal-stagger>
             <Card shadow="md" isHoverable isPressable data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 pb-0 pt-6">
+              <CardHeader className="absolute z-10 pb-0 pt-6">
                 <Chip variant="dot" color="primary">
                   Namų projektai
                 </Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0">
+              <CardBody className="p-0">
                 <Image
                   src="https://armaris.lt/wp-content/uploads/2020/05/home-1-rev-img-1.png"
                   alt="Namų projektai"
@@ -250,7 +250,7 @@ export default function Kontaktai() {
                   }}
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 z-10 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 z-10 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div>
                   <p className="text-foreground font-bold">Įvairūs namų projektai</p>
                   <p className="text-default-500 text-small">Aukštos kokybės namų statybos sprendimai</p>
@@ -259,12 +259,12 @@ export default function Kontaktai() {
             </Card>
 
             <Card shadow="md" isHoverable isPressable data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="absolute z-10 pb-0 pt-6">
+              <CardHeader className="absolute z-10 pb-0 pt-6">
                 <Chip variant="dot" color="secondary">
                   Statybos darbai
                 </Chip>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-0">
+              <CardBody className="p-0">
                 <Image
                   src="https://armaris.lt/wp-content/uploads/2020/06/90564160_234420907948244_3547620218874363904_n-768x432.jpg.webp"
                   alt="Statybos darbai"
@@ -277,7 +277,7 @@ export default function Kontaktai() {
                   }}
                 />
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="absolute bottom-0 z-10 bg-content1/80 backdrop-blur-xl border-t border-divider">
+              <CardFooter className="absolute bottom-0 z-10 bg-content1/80 backdrop-blur-xl border-t border-divider">
                 <div>
                   <p className="text-foreground font-bold">Profesionalios paslaugos</p>
                   <p className="text-default-500 text-small">Patirtis ir kokybė kiekviename projekte</p>

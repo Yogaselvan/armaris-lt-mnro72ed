@@ -78,7 +78,7 @@ export default function NamuProjektai() {
               data-hover-lift
               className="bg-content1/60 backdrop-blur-xl border border-default-100"
             >
-              <Card data-hover-lift isHoverable shadow="md"Header className="p-0 relative overflow-hidden">
+              <CardHeader className="p-0 relative overflow-hidden">
                 <Image
                   src="https://armaris.lt/wp-content/uploads/2020/07/gallery-5.jpg.webp"
                   alt="Namų projektas - virtuvės erdvė"
@@ -89,7 +89,7 @@ export default function NamuProjektai() {
                   shadow="md"
                 />
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body>
+              <CardBody>
                 <Chip variant="flat" color="primary" size="sm" className="mb-3">
                   Virtuvės projektas
                 </Chip>
@@ -100,7 +100,7 @@ export default function NamuProjektai() {
                   Erdvi ir funkcinali virtuvė su aukštos kokybės medžiagomis. Integruoti buitiniai prietaisai ir optimalus apšvietimas.
                 </p>
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="bg-content2/50 backdrop-blur-md">
+              <CardFooter className="bg-content2/50 backdrop-blur-md">
                 <Link
                   showAnchorIcon
                   anchorIcon={<ChevronRight className="w-4 h-4" />}
@@ -120,7 +120,7 @@ export default function NamuProjektai() {
               data-hover-lift
               className="bg-content1/60 backdrop-blur-xl border border-default-100"
             >
-              <Card data-hover-lift isHoverable shadow="md"Header className="p-0 relative overflow-hidden">
+              <CardHeader className="p-0 relative overflow-hidden">
                 <Image
                   src="https://armaris.lt/wp-content/uploads/2020/07/gallery-6.jpg.webp"
                   alt="Namų projektas - svetainės erdvė"
@@ -131,7 +131,7 @@ export default function NamuProjektai() {
                   shadow="md"
                 />
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body>
+              <CardBody>
                 <Chip variant="flat" color="primary" size="sm" className="mb-3">
                   Svetainės projektas
                 </Chip>
@@ -142,7 +142,7 @@ export default function NamuProjektai() {
                   Stilinga svetainės zona su derančiomis baldų detalėmis. Klasikinis dizainas su moderniais akcentais.
                 </p>
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="bg-content2/50 backdrop-blur-md">
+              <CardFooter className="bg-content2/50 backdrop-blur-md">
                 <Link
                   showAnchorIcon
                   anchorIcon={<ChevronRight className="w-4 h-4" />}
@@ -228,7 +228,7 @@ export default function NamuProjektai() {
                 data-hover-lift
                 className="bg-content1/60 backdrop-blur-xl border border-default-100"
               >
-                <Card data-hover-lift isHoverable shadow="md"Body className="p-8">
+                <CardBody className="p-8">
                   <div className="flex items-center gap-4 mb-6">
                     <div className="bg-primary/10 p-4 rounded-full">
                       <Building2 className="w-8 h-8 text-primary" />
@@ -302,7 +302,7 @@ export default function NamuProjektai() {
               data-hover-lift
               className="bg-content1/60 backdrop-blur-xl border border-default-100"
             >
-              <Card data-hover-lift isHoverable shadow="md"Body className="p-8">
+              <CardBody className="p-8">
                 <h3 className="text-2xl font-bold text-foreground mb-6">
                   Siųsti žinutę
                 </h3>
@@ -377,7 +377,7 @@ export default function NamuProjektai() {
                 data-hover-lift
                 className="bg-content1/60 backdrop-blur-xl border border-default-100"
               >
-                <Card data-hover-lift isHoverable shadow="md"Body className="p-6">
+                <CardBody className="p-6">
                   <div className="flex items-center gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
                       <Clock className="w-6 h-6 text-primary" />
@@ -397,7 +397,7 @@ export default function NamuProjektai() {
                 data-hover-lift
                 className="bg-content1/60 backdrop-blur-xl border border-default-100"
               >
-                <Card data-hover-lift isHoverable shadow="md"Body className="p-6">
+                <CardBody className="p-6">
                   <div className="flex items-center gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
                       <Phone className="w-6 h-6 text-primary" />
@@ -422,7 +422,7 @@ export default function NamuProjektai() {
                 data-hover-lift
                 className="bg-content1/60 backdrop-blur-xl border border-default-100"
               >
-                <Card data-hover-lift isHoverable shadow="md"Body className="p-6">
+                <CardBody className="p-6">
                   <div className="flex items-center gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
                       <Mail className="w-6 h-6 text-primary" />
@@ -447,7 +447,7 @@ export default function NamuProjektai() {
                 data-hover-lift
                 className="bg-content1/60 backdrop-blur-xl border border-default-100"
               >
-                <Card data-hover-lift isHoverable shadow="md"Body className="p-6">
+                <CardBody className="p-6">
                   <div className="flex items-center gap-4">
                     <div className="bg-primary/10 p-3 rounded-full">
                       <MapPin className="w-6 h-6 text-primary" />

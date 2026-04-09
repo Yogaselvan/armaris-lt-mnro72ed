@@ -53,7 +53,7 @@ export default function VykdomiProjektai() {
           <Spacer y={8} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-reveal-stagger>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="flex gap-4">
+              <CardHeader className="flex gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                   <Building2 className="w-6 h-6 text-primary" />
                 </div>
@@ -62,19 +62,19 @@ export default function VykdomiProjektai() {
                   <p className="text-default-500 text-sm">Vykdomas projektas</p>
                 </div>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body>
+              <CardBody>
                 <p className="text-default-500">
                   Teikiame kompleksines profesionalių paslaugų sprendimus verslo klientams, užtikrinant kokybišką bendradarbiavimą ir rezultatus.
                 </p>
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer>
+              <CardFooter>
                 <Link showAnchorIcon href="#" color="primary" className="text-primary">
                   Sužinoti daugiau
                 </Link>
               </CardFooter>
             </Card>
             <Card isHoverable isPressable shadow="md" data-hover-lift className="bg-content1/60 backdrop-blur-xl border border-default-100">
-              <Card data-hover-lift isHoverable shadow="md"Header className="flex gap-4">
+              <CardHeader className="flex gap-4">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                   <Users className="w-6 h-6 text-primary" />
                 </div>
@@ -83,12 +83,12 @@ export default function VykdomiProjektai() {
                   <p className="text-default-500 text-sm">Vykdomas projektas</p>
                 </div>
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body>
+              <CardBody>
                 <p className="text-default-500">
                   Kiekvienam klientui pritaikome individualius sprendimus, atsižvelgdami į specifinius poreikius ir tikslus.
                 </p>
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer>
+              <CardFooter>
                 <Link showAnchorIcon href="#" color="primary" className="text-primary">
                   Sužinoti daugiau
                 </Link>

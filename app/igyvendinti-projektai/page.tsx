@@ -48,7 +48,7 @@ export default function IvyvendintiProjektai() {
           <Spacer y={8} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8" data-reveal-stagger>
             <Card isHoverable shadow="md" isPressable className="bg-content1/60 backdrop-blur-xl border border-default-100" data-hover-lift>
-              <Card data-hover-lift isHoverable shadow="md"Header className="flex gap-3 p-0">
+              <CardHeader className="flex gap-3 p-0">
                 <Image
                   alt="Įgyvendintas projektas - biuro interjeras"
                   src="https://armaris.lt/wp-content/uploads/2020/07/gallery-3.jpg.webp"
@@ -59,7 +59,7 @@ export default function IvyvendintiProjektai() {
                   className="w-full object-cover h-64"
                 />
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="pb-6">
+              <CardBody className="pb-6">
                 <Spacer y={4} />
                 <div className="flex gap-2 mb-3">
                   <Chip color="primary" variant="flat" size="sm">
@@ -73,7 +73,7 @@ export default function IvyvendintiProjektai() {
                   Modernus biuro interjero sprendimas, sukuriantis funkcionalią ir estetiškai patrauklią darbo aplinką.
                 </p>
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="pt-0">
+              <CardFooter className="pt-0">
                 <Link
                   as={Button}
                   variant="light"
@@ -86,7 +86,7 @@ export default function IvyvendintiProjektai() {
               </CardFooter>
             </Card>
             <Card isHoverable shadow="md" isPressable className="bg-content1/60 backdrop-blur-xl border border-default-100" data-hover-lift>
-              <Card data-hover-lift isHoverable shadow="md"Header className="flex gap-3 p-0">
+              <CardHeader className="flex gap-3 p-0">
                 <Image
                   alt="Įgyvendintas projektas - komercinės patalpos"
                   src="https://armaris.lt/wp-content/uploads/2020/07/gallery-4.jpg.webp"
@@ -97,7 +97,7 @@ export default function IvyvendintiProjektai() {
                   className="w-full object-cover h-64"
                 />
               </CardHeader>
-              <Card data-hover-lift isHoverable shadow="md"Body className="pb-6">
+              <CardBody className="pb-6">
                 <Spacer y={4} />
                 <div className="flex gap-2 mb-3">
                   <Chip color="secondary" variant="flat" size="sm">
@@ -111,7 +111,7 @@ export default function IvyvendintiProjektai() {
                   Profesionalus komercinių patalpų įrengimas, atitinkantis verslo poreikius ir keliamus reikalavimus.
                 </p>
               </CardBody>
-              <Card data-hover-lift isHoverable shadow="md"Footer className="pt-0">
+              <CardFooter className="pt-0">
                 <Link
                   as={Button}
                   variant="light"
@@ -193,7 +193,7 @@ export default function IvyvendintiProjektai() {
             </div>
             <div data-reveal>
               <Card data-hover-lift isHoverable shadow="md" className="bg-content1/60 backdrop-blur-xl border border-default-100 p-2">
-                <Card data-hover-lift isHoverable shadow="md"Body>
+                <CardBody>
                   <form className="flex flex-col gap-4">
                     <Input
                       label="Vardas"
